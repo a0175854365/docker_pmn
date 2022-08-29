@@ -7,8 +7,14 @@ cd docker_pmn
 docker-compose up
 ```
 
-## Connect to 
+## Browser url
 ```
 localhost:8000
 ````
 
+## Connect to DB
+```
+docker exec -it {container ID} /bin/bash
+> mysql -uroot -p
+> root_password
+```
