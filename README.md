@@ -9,7 +9,7 @@ docker-compose up
 
 ## Browser url
 ```
-localhost:8000
+localhost:18000
 ````
 
 ## Connect to DB
