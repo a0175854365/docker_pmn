@@ -5,7 +5,7 @@ services:
         image: nginx:latest
         container_name: nginx
         ports:
-            - "8000:80"
+            - "8100:80"
         volumes:
             - ./Project:/var/www/html #프로젝트 경로
             - ./nginx/default.conf:/etc/nginx/conf.d/default.conf #nginx 설정 파일
@@ -16,7 +16,7 @@ services:
         restart: unless-stopped
         tty: true
         ports:
-            - "3306:3306"
+            - "3406:3306"
         environment:
             MYSQL_HOST: localhost
             MYSQL_DATABASE: test_db
