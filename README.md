@@ -6,3 +6,9 @@
 cd docker_pmn
 docker-compose up
 ```
+
+## Connect to 
+```
+localhost:8000
+````
+
