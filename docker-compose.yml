@@ -19,10 +19,10 @@ services:
             - "3306:3306"
         environment:
             MYSQL_HOST: localhost
-            MYSQL_DATABASE: dbname #디비명
-            MYSQL_USER: user #사용자명
-            MYSQL_PASSWORD: password #사용자비밀번호
-            MYSQL_ROOT_PASSWORD: password #루트계정비밀번호
+            MYSQL_DATABASE: test_db
+            MYSQL_USER: test_user
+            MYSQL_PASSWORD: test_password
+            MYSQL_ROOT_PASSWORD: root_password
             SERVICE_TAGS: dev
             SERVICE_NAME: mysql
 
